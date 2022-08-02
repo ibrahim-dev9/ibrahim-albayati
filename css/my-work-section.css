@@ -2,6 +2,7 @@
     background: #2C3333;
     min-height: 80vh;
     padding-bottom: 30px;
+    display: none;
 }
 .my-work-section .item {
     width: 100%;
