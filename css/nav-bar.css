@@ -1,0 +1,125 @@
+/* ? ---- NAVBAR TITLE ---- */
+nav {
+    position: relative;
+    height: 60px;
+    width: 100%;
+    background: #191919;
+    color: #E7F6F2;
+}
+
+@media screen and (min-width: 768px) {
+
+    nav .container .wrapper .menu,
+    nav .container .wrapper .logo {
+        display: inline-block;
+    }
+
+    nav .container .wrapper .burger {
+        display: none;
+    }
+
+    nav .wrapper {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+nav .logo h1 {
+    font-size: 26px;
+    line-height: 30px;
+    padding: 15px 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+
+/* ? ---- NAVBAR MENU ---- */
+
+nav .menu {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    max-height: 0px;
+    overflow: hidden;
+    transition: .4s ease-in-out;
+    z-index: 99;
+}
+
+
+.show {
+    max-height: 102px !important;
+    background: #303030;
+}
+@media screen and (min-width: 768px) {
+    nav .menu {
+        position: static;
+        width: auto;
+        max-height: 100%;
+    }
+    .show {
+        background: rgba(255, 10, 10, 0);
+        
+    }
+    
+}
+
+nav .menu ul {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+nav .menu ul li {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    nav .menu ul {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    nav .menu ul li {
+        display: inline-block;
+        padding: 0 .8rem;
+    }
+}
+
+nav .menu ul li a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+}
+
+nav .menu ul li a:hover {
+    color: #fff;
+    transition: .3s ease;
+}
+
+
+/* ? BURGER  */
+.burger {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    margin: 14px 0;
+    height: 32px;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.burger div {
+
+    height: 3px;
+    background: #fff;
+
+}
