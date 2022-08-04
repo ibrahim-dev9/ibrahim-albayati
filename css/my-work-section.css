@@ -1,5 +1,5 @@
 .my-work-section {
-    background: #2C3333;
+    background: #191919;
     min-height: 80vh;
     padding-bottom: 30px;
     display: none;
@@ -30,7 +30,7 @@
     
 }
 .my-work-section .item .date {
-    font-size: 14px;
+    font-size: .9rem;
     color: rgba(255, 255, 255, 0.5);
     display: flex;
     justify-content: space-between;
@@ -46,6 +46,7 @@
 }
 .btn-link:hover {
     background: rgb(0, 60, 179);
+    transition: .3s ease;
 }
 @media screen and (min-width: 768px) {
     .my-work-section .wrapper {

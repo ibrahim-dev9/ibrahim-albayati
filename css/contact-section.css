@@ -61,5 +61,6 @@
     .contact-section .wrapper ul li a:hover {
         color: #5d93ff;
         text-decoration: underline;
+        transition: .3s ease;
     }
 }
