@@ -1,5 +1,5 @@
 .hero-section {
-    margin-top: 60px;
+    /* margin-top: 60px; */
     background: #212121;
     color: #fff;
 }
@@ -40,6 +40,7 @@
 .hero-section .wrapper .img img {
     display: block;
     width: 80%;
+    height: 100%;
     margin: auto;
     object-fit: cover;
 }
@@ -85,20 +86,20 @@
     }
 }
 .hero-section .wrapper .content>h2 {
-    color: #05f;
+    color: #3282B8;
     font-size: 2.4rem;
     font-weight: bolder;
     
 }
 .hero-section .wrapper .content>p {
     color: #eee;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     
 }
 .hero-section .wrapper .content .social-contact a {
     color: #c5c5c5;
     padding: 5px;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 .hero-section .wrapper .content .social-contact a:hover {
     color: #fff;

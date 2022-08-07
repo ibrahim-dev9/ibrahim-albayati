@@ -2,7 +2,7 @@
     background: #191919;
     min-height: 80vh;
     padding-bottom: 30px;
-    display: none;
+    /* display: none; */
 }
 .my-work-section .item {
     width: 100%;
@@ -38,7 +38,7 @@
 }
 .btn-link {
     padding: 10px;
-    background-color: #05f;
+    background-color: #3282B8;
     border-radius: 10px;
     text-align: end;
     color: #fff;

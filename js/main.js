@@ -4,6 +4,7 @@ const myNav = () => {
 
     burger.addEventListener('click', () => {
         nav.classList.toggle("show");
+        burger.classList.toggle("toggle");
         
     })
 }
